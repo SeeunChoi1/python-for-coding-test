@@ -116,12 +116,12 @@
 
 #### 11장 그리디
 
-* 모험가 길드 (핵심 유형)
-* 곱하기 혹은 더하기 (Facebook 인터뷰 기출)
-* [문자열 뒤집기] [(문제출처)](https://www.acmicpc.net/problem/1439)
-* 만들 수 없는 금액 (K 대회 기출)
-* 볼링공 고르기 (S 기관 입학 테스트)
-* [무지의 먹방 라이브] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/42891) (카카오)
+* [모험가 길드](/03/4.py)
+* [곱하기 혹은 더하기](/03/5.py)
+* [문자열 뒤집기](/03/6.py) [(문제출처)](https://www.acmicpc.net/problem/1439)
+* [만들 수 없는 금액](/03/7.py)
+* [볼링공 고르기](/03/8.py)
+* [무지의 먹방 라이브](/03/9.py) [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/42891) (카카오)
 
 #### 12장 구현
 
