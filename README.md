@@ -1,15 +1,19 @@
 # python-for-coding-test
+## 출처 : [이것이 취업을 위한 코딩 테스트다 with 파이썬](http://www.yes24.com/Product/Goods/91433923)
+## 참고 : [저자 github](https://github.com/ndb796/python-for-coding-test)
+각 예제 코드문제를 위한 input은 txt파일로 생성되어있습니다.
+
 ### Part 2 주요 알고리즘 이론과 실전 문제
 
 #### 3장 그리디
 
 * 이론
     * 당장 좋은 것만 선택하는 그리디
-    * [거스름돈 문제](/03/1.py)
+    * 거스름돈 문제
 * 실전
-    * [동빈이의 큰 수의 법칙]
-    * [숫자 카드게임]
-    * [1이 될 때까지]
+    * [동빈이의 큰 수의 법칙](/03/1.py)
+    * [숫자 카드게임](/03/2.py)
+    * [1이 될 때까지](/03/3.py)
 
 #### 4장 구현
 
@@ -87,37 +91,37 @@
 
 * 이론
     * 가장 빠른 길 찾기
-    * 간단한 다익스트라 알고리즘: ([Python 3.7 코드](/9/1.py) / [C++ 코드](/9/1.cpp) / [Java 코드](/9/1.java))
-    * 개선된 다익스트라 알고리즘 (우선순위 큐): ([Python 3.7 코드](/9/2.py) / [C++ 코드](/9/2.cpp) / [Java 코드](/9/2.java))
-    * 플로이드 워셜 알고리즘: ([Python 3.7 코드](/9/3.py) / [C++ 코드](/9/3.cpp) / [Java 코드](/9/3.java))
+    * 간단한 다익스트라 알고리즘
+    * 개선된 다익스트라 알고리즘 (우선순위 큐)
+    * 플로이드 워셜 알고리즘
 * 실전
-    * 미래 도시: ([Python 3.7 코드](/9/4.py) / [C++ 코드](/9/4.cpp) / [Java 코드](/9/4.java))
-    * 전보: ([Python 3.7 코드](/9/5.py) / [C++ 코드](/9/5.cpp) / [Java 코드](/9/5.java))
+    * 미래 도시
+    * 전보
 
 #### 10장 기타 그래프 이론
 
 * 이론
     * 다양한 그래프 알고리즘
-    * 간단한 서로소 집합 알고리즘: ([Python 3.7 코드](/10/1.py) / [C++ 코드](/10/1.cpp) / [Java 코드](/10/1.java))
-    * 개선된 서로소 집합 알고리즘 (경로 압축): ([Python 3.7 코드](/10/3.py) / [C++ 코드](/10/3.cpp) / [Java 코드](/10/3.java))
-    * 서로소 집합을 활용한 사이클 판별: ([Python 3.7 코드](/10/4.py) / [C++ 코드](/10/4.cpp) / [Java 코드](/10/4.java))
-    * 크루스칼 알고리즘: ([Python 3.7 코드](/10/5.py) / [C++ 코드](/10/5.cpp) / [Java 코드](/10/5.java))
-    * 위상 정렬: ([Python 3.7 코드](/10/6.py) / [C++ 코드](/10/6.cpp) / [Java 코드](/10/6.java))
+    * 간단한 서로소 집합 알고리즘
+    * 개선된 서로소 집합 알고리즘 (경로 압축)
+    * 서로소 집합을 활용한 사이클 판별
+    * 크루스칼 알고리즘
+    * 위상 정렬
 * 실전
-    * 팀 결성: ([Python 3.7 코드](/10/7.py) / [C++ 코드](/10/7.cpp) / [Java 코드](/10/7.java))
-    * 도시 분할 계획: ([Python 3.7 코드](/10/8.py) / [C++ 코드](/10/8.cpp) / [Java 코드](/10/8.java))
-    * 커리큘럼: ([Python 3.7 코드](/10/9.py) / [C++ 코드](/10/9.cpp) / [Java 코드](/10/9.java))
+    * 팀 결성
+    * 도시 분할 계획
+    * 커리큘럼
 
 ### Part 3 알고리즘 유형별 기출문제
 
 #### 11장 그리디
 
-* 모험가 길드 (핵심 유형): ([Python 3.7 코드](/11/1.py) / [C++ 코드](/11/1.cpp) / [Java 코드](/11/1.java))
-* 곱하기 혹은 더하기 (Facebook 인터뷰 기출): ([Python 3.7 코드](/11/2.py) / [C++ 코드](/11/2.cpp) / [Java 코드](/11/2.java))
-* [문자열 뒤집기](https://www.acmicpc.net/problem/1439) (핵심 유형): ([Python 3.7 코드](/11/3.py) / [C++ 코드](/11/3.cpp) / [Java 코드](/11/3.java))
-* 만들 수 없는 금액 (K 대회 기출): ([Python 3.7 코드](/11/4.py) / [C++ 코드](/11/4.cpp) / [Java 코드](/11/4.java))
-* 볼링공 고르기 (S 기관 입학 테스트): ([Python 3.7 코드](/11/5.py) / [C++ 코드](/11/5.cpp) / [Java 코드](/11/5.java))
-* [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891) (카카오): ([Python 3.7 코드](/11/6.py) / [C++ 코드](/11/6.cpp) / [Java 코드](/11/6.java))
+* 모험가 길드 (핵심 유형)
+* 곱하기 혹은 더하기 (Facebook 인터뷰 기출)
+* [문자열 뒤집기](https://www.acmicpc.net/problem/1439) (핵심 유형)
+* 만들 수 없는 금액 (K 대회 기출)
+* 볼링공 고르기 (S 기관 입학 테스트)
+* [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891) (카카오)
 
 #### 12장 구현
 
@@ -132,28 +136,28 @@
 
 #### 13장 DFS/BFS
 
-* [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) (핵심 유형): ([Python 3.7 코드](/13/1.py) / [C++ 코드](/13/1.cpp) / [Java 코드](/13/1.java))
-* [연구소](https://www.acmicpc.net/problem/14502) (삼성): ([Python 3.7 코드](/13/2.py) / [C++ 코드](/13/2.cpp) / [Java 코드](/13/2.java))
-* [경쟁적 전염](https://www.acmicpc.net/problem/18405) (핵심 유형): ([Python 3.7 코드](/13/3.py) / [C++ 코드](/13/3.cpp) / [Java 코드](/13/3.java))
-* [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) (카카오): ([Python 3.7 코드](/13/4.py) / [C++ 코드](/13/4.cpp) / [Java 코드](/13/4.java))
-* [연산자 끼워 넣기](https://www.acmicpc.net/problem/14888) (삼성): ([Python 3.7 코드](/13/5.py) / [C++ 코드](/13/5.cpp) / [Java 코드](/13/5.java))
-* [감시 피하기](https://www.acmicpc.net/problem/18428) (핵심 유형): ([Python 3.7 코드](/13/6.py) / [C++ 코드](/13/6.cpp) / [Java 코드](/13/6.java))
-* [인구 이동](https://www.acmicpc.net/problem/16234) (삼성): ([Python 3.7 코드](/13/7.py) / [C++ 코드](/13/7.cpp) / [Java 코드](/13/7.java))
-* [블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063) (카카오): ([Python 3.7 코드](/13/8.py) / [C++ 코드](/13/8.cpp) / [Java 코드](/13/8.java))
+* [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) (핵심 유형)
+* [연구소](https://www.acmicpc.net/problem/14502) (삼성)
+* [경쟁적 전염](https://www.acmicpc.net/problem/18405) (핵심 유형)
+* [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) (카카오)
+* [연산자 끼워 넣기](https://www.acmicpc.net/problem/14888) (삼성)
+* [감시 피하기](https://www.acmicpc.net/problem/18428) (핵심 유형)
+* [인구 이동](https://www.acmicpc.net/problem/16234) (삼성)
+* [블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063) (카카오)
 
 #### 14장 정렬
 
-* [국영수](https://www.acmicpc.net/problem/10825) (핵심 유형): ([Python 3.7 코드](/14/1.py) / [C++ 코드](/14/1.cpp) / [Java 코드](/14/1.java))
-* [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가): ([Python 3.7 코드](/14/2.py) / [C++ 코드](/14/2.cpp) / [Java 코드](/14/2.java))
-* [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오): ([Python 3.7 코드](/14/3.py) / [C++ 코드](/14/3.cpp) / [Java 코드](/14/3.java))
-* [카드 정렬하기](https://www.acmicpc.net/problem/1715) (핵심 유형): ([Python 3.7 코드](/14/4.py) / [C++ 코드](/14/4.cpp) / [Java 코드](/14/4.java))
+* [국영수](https://www.acmicpc.net/problem/10825) (핵심 유형)
+* [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가)
+* [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오)
+* [카드 정렬하기](https://www.acmicpc.net/problem/1715) (핵심 유형)
 
 #### 15장 이진 탐색
 
-* 정렬된 배열에서 특정 수의 개수 구하기 (Zoho 인터뷰 기출): ([Python 3.7 코드](/15/1.py) / [C++ 코드](/15/1.cpp) / [Java 코드](/15/1.java))
-* 고정점 찾기 (Amazon 인터뷰 기출): ([Python 3.7 코드](/15/2.py) / [C++ 코드](/15/2.cpp) / [Java 코드](/15/2.java))
-* [공유기 설치](https://www.acmicpc.net/problem/2110) (핵심 유형): ([Python 3.7 코드](/15/3.py) / [C++ 코드](/15/3.cpp) / [Java 코드](/15/3.java))
-* [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060) (카카오): ([Python 3.7 코드](/15/4.py) / [C++ 코드](/15/4.cpp) / [Java 코드](/15/4.java))
+* 정렬된 배열에서 특정 수의 개수 구하기 (Zoho 인터뷰 기출)
+* 고정점 찾기 (Amazon 인터뷰 기출)
+* [공유기 설치](https://www.acmicpc.net/problem/2110) (핵심 유형)
+* [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060) (카카오)
 
 #### 16장 다이나믹 프로그래밍
 
