@@ -5,8 +5,6 @@
 각 예제 코드문제를 위한 input은 txt파일로 생성되어있습니다.\
 책 목차 순의 문제풀이가 아닌 알고리즘 기준의 문제풀이 순서로 진행하였습니다.
 
-### Part 2 주요 알고리즘 이론과 실전 문제
-
 #### 3장 그리디
 
 * 이론
@@ -19,10 +17,10 @@
 * 기출문제
     * [모험가 길드](/03/4.py)
     * [곱하기 혹은 더하기](/03/5.py)
-    * [문자열 뒤집기](/03/6.py) [(문제출처)](https://www.acmicpc.net/problem/1439)
+    * [문자열 뒤집기](/03/6.py) (문제출처) : [백준](https://www.acmicpc.net/problem/1439)
     * [만들 수 없는 금액](/03/7.py)
     * [볼링공 고르기](/03/8.py)
-    * [무지의 먹방 라이브](/03/9.py) [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/42891)
+    * [무지의 먹방 라이브](/03/9.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42891))
 
 #### 4장 구현
 
@@ -31,14 +29,14 @@
     * 상하좌우
     * 시각
 * 실전
-    * 왕실의 나이트
-    * 게임 개발
+    * [왕실의 나이트](04/1.py)
+    * [게임 개발](04/2.py)
 * 기출문제
-    * [럭키 스트레이트] [(문제출처)](https://www.acmicpc.net/problem/18406)
-    * 문자열 재정렬 (Facebook 인터뷰 기출)
-    * [문자열 압축] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60057)
+    * [럭키 스트레이트](04/3.py) [(문제출처)](https://www.acmicpc.net/problem/18406)
+    * [문자열 재정렬](04/4.py) (Facebook 인터뷰 기출)
+    * [문자열 압축](04/5.py) [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60057)
     * [자물쇠와 열쇠] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60059)
-    * [뱀] [(문제출처)](https://www.acmicpc.net/problem/3190)
+    * [뱀] (문제출처 : [백준](https://www.acmicpc.net/problem/3190))
     * [기둥과 보 설치] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60061)
     * [치킨 배달] [(문제출처)](https://www.acmicpc.net/problem/15686) 
     * [외벽 점검] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60062)
