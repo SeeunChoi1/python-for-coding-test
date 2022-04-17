@@ -5,7 +5,7 @@
 각 예제 코드문제를 위한 input은 txt파일로 생성되어있습니다.\
 책 목차 순의 문제풀이가 아닌 알고리즘 기준의 문제풀이 순서로 진행하였습니다.
 
-#### 3장 그리디
+## 3장 그리디
 
 * 이론
     * 당장 좋은 것만 선택하는 그리디
@@ -17,12 +17,12 @@
 * 기출문제
     * [모험가 길드](/03/4.py)
     * [곱하기 혹은 더하기](/03/5.py)
-    * [문자열 뒤집기](/03/6.py) (문제출처) : [백준](https://www.acmicpc.net/problem/1439)
+    * [문자열 뒤집기](/03/6.py) (문제출처 : [백준](https://www.acmicpc.net/problem/1439))
     * [만들 수 없는 금액](/03/7.py)
     * [볼링공 고르기](/03/8.py)
     * [무지의 먹방 라이브](/03/9.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42891))
 
-#### 4장 구현
+## 4장 구현
 
 * 이론
     * 아이디어를 코드로 바꾸는 구현
@@ -32,43 +32,34 @@
     * [왕실의 나이트](04/1.py)
     * [게임 개발](04/2.py)
 * 기출문제
-    * [럭키 스트레이트](04/3.py) [(문제출처)](https://www.acmicpc.net/problem/18406)
+    * [럭키 스트레이트](04/3.py) (문제출처 : [백준](https://www.acmicpc.net/problem/18406))
     * [문자열 재정렬](04/4.py) (Facebook 인터뷰 기출)
-    * [문자열 압축](04/5.py) [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60057)
-    * [자물쇠와 열쇠] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60059)
-    * [뱀] (문제출처 : [백준](https://www.acmicpc.net/problem/3190))
-    * [기둥과 보 설치] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60061)
-    * [치킨 배달] [(문제출처)](https://www.acmicpc.net/problem/15686) 
-    * [외벽 점검] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60062)
+    * [문자열 압축](04/5.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60057))
+    * [자물쇠와 열쇠](04/6.py) [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60059)
+    * [뱀](04/7.py) (문제출처 : [백준](https://www.acmicpc.net/problem/3190))
+    * [기둥과 보 설치](04/8.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60061))
+    * [치킨 배달](04/9.py) (문제출처 : [백준](https://www.acmicpc.net/problem/15686))
+    * [외벽 점검](04/10.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60062))
 
-#### 5장 DFS/BFS
+## 5장 DFS/BFS
 
 * 이론
-    * 꼭 필요한 자료구조 기초
-    * 탐색 알고리즘 DFS/BFS
-    * 스택 구현 예제
-    * 큐 구현 예제
-    * 무한히 반복되는 재귀함수 예제
-    * 재귀함수의 종료 조건 예제
-    * 2가지 방식으로 구현한 팩토리얼 예제
-    * 인접 행렬 예제
-    * 인접 리스트 예제
-    * DFS
-    * BFS
+    * DFS - 스택
+    * BFS - 큐
 * 실전
-    * 음료수 얼려 먹기
-    * 미로 탈출
+    * [음료수 얼려 먹기](05/1.py)
+    * [미로 탈출](05/2.py)
 * 기출문제
-    * [특정 거리의 도시 찾기] [(문제출처)](https://www.acmicpc.net/problem/18352)
-    * [연구소] [(문제출처)](https://www.acmicpc.net/problem/14502) 
-    * [경쟁적 전염] [(문제출처)](https://www.acmicpc.net/problem/18405) 
-    * [괄호 변환] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60058)
-    * [연산자 끼워 넣기] [(문제출처)](https://www.acmicpc.net/problem/14888) 
-    * [감시 피하기] [(문제출처)](https://www.acmicpc.net/problem/18428)
-    * [인구 이동] [(문제출처)](https://www.acmicpc.net/problem/16234) 
-    * [블록 이동하기] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60063)
+    * [특정 거리의 도시 찾기](05/3.py) (문제출처 : [백준](https://www.acmicpc.net/problem/18352))
+    * [연구소](05/4.py) (문제출처 : [백준](https://www.acmicpc.net/problem/14502))
+    * [경쟁적 전염](05/5.py) (문제출처 : [백준](https://www.acmicpc.net/problem/18405))
+    * [괄호 변환](05/6.py)  (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60058))
+    * [연산자 끼워 넣기](05/7.py)  (문제출처 : [백준](https://www.acmicpc.net/problem/14888))
+    * [감시 피하기](05/8.py)  (문제출처 : [백준](https://www.acmicpc.net/problem/18428))
+    * [인구 이동](05/9.py)  (문제출처 : [백준](https://www.acmicpc.net/problem/16234))
+    * [블록 이동하기](05/10.py)  (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60063))
 
-#### 6장 정렬
+## 6장 정렬
 
 * 이론
     * 기준에 따라서 데이터를 정렬
@@ -90,7 +81,7 @@
     * [실패율] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/42889) 
     * [카드 정렬하기] [(문제출처)](https://www.acmicpc.net/problem/1715) 
 
-#### 7장 이진 탐색
+## 7장 이진 탐색
 
 * 이론
     * 범위를 반씩 좁혀가는 탐색
@@ -110,7 +101,7 @@
     * [공유기 설치] [(문제출처)](https://www.acmicpc.net/problem/2110) (핵심 유형)
     * [가사 검색] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60060) (카카오)
 
-#### 8장 다이나믹 프로그래밍
+## 8장 다이나믹 프로그래밍
 
 * 이론
     * 비효율적인 피보나치 수열 구현
@@ -129,7 +120,7 @@
     * 못생긴 수 (Google 인터뷰 기출)
     * 편집 거리 (Goldman Sachs 인터뷰 기출)
 
-#### 9장 최단 경로
+## 9장 최단 경로
 
 * 이론
     * 가장 빠른 길 찾기
@@ -145,7 +136,7 @@
     * 화성 탐사 (ICPC)
     * 숨바꼭질 (USACO)
 
-#### 10장 기타 그래프 이론
+## 10장 기타 그래프 이론
 
 * 이론
     * 다양한 그래프 알고리즘
