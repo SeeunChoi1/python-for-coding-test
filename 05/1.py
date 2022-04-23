@@ -19,7 +19,7 @@ def dfs(c, r):
             continue
         if graph[dc][dr] == 1:
             continue
-        graph[c][r] = 1
+        graph[dc][dr] = 1
         dfs(dc, dr)
     
 def dfs2(c,r):
@@ -45,6 +45,7 @@ for i in range(n):
             continue
         else:
             print(">>",i,j)
+            graph[i][j] = 1
             answer += 1
             dfs(i,j)
 

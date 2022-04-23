@@ -1,5 +1,6 @@
 # 연구소
 import sys
+from unittest import result
 sys.stdin = open("05/4.txt", "r")
 
 col, row = map(int, input().split())
@@ -11,7 +12,7 @@ ans = 0
 # 0-빈칸 / 1-벽 / 2-바이러스
 # dfs로 바이러스를 전파시킨다
 def dfs(x,y):
-    graph[x][y] = 2
+    test[x][y] = 2
     for i in range(4):
         nx = x + dir[i][0]
         ny = y + dir[i][1]
@@ -32,9 +33,14 @@ def calculate():
     return cnt
 
 def fence(count):
-    global ans
+    global ans, result
     # 울타리 3개 완료
     if count == 3: 
+        
+        # if graph[1][0] and graph[0][1] and graph[3][5]:
+        #     print(">>>>>start>>>>>" , count)
+        #     print(*graph, sep='\n')
+        # 2행 1열, 1행 2열, 4행 6열
         for i in range(col):
             for j in range(row):
                 test[i][j] = graph[i][j]
@@ -44,6 +50,9 @@ def fence(count):
                 if test[i][j] == 2:
                     dfs(i,j)
         result = max(result, calculate())
+        # if graph[1][0] and graph[0][1] and graph[3][5]:
+        #     print(">>>>>temp>>>>>", result)
+        #     print(*test, sep='\n')
         return
     # 벽을 세운다
     for i in range(col):
@@ -54,6 +63,6 @@ def fence(count):
                 fence(count)
                 graph[i][j] = 0
                 count -= 1
-
+result = -1
 fence(0)
-print(ans)
+print(result)
