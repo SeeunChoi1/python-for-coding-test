@@ -10,7 +10,6 @@ visited = [[False]*n for _ in range(n)]
 # 연합 기준으로 표시
 def group(graph):
     visited = [[False]*n for _ in range(n)] #초기화
-    group_list = []
     union = 0
     for i in range(n):
         for j in range(n):
@@ -18,6 +17,7 @@ def group(graph):
                 continue
             # 연합 계산 - bfs
             queue = deque()
+            group_list = []
             queue.append([i,j,union+1])
             visited[i][j] = union+1 # visited에 update
 
@@ -41,26 +41,25 @@ def group(graph):
                         group_list.append([nx,ny])
                         group_num += 1
                         group_sum += graph[nx][ny]
-            print('--------')
-            print('union', union, group_list)
-            print(visited)
 
             # bfs 끝 -> 연합 기준 인구수 계산
             new_population = group_sum // group_num
             for elem in group_list:
                 visited[elem[0]][elem[1]] = new_population
 
+            # print('------')
+            # print(visited)
+            # print(group_list)
+
     return visited, union
 
 ans = 0
 while True:
-# for _ in range(3):
     new_graph, union = group(graph) # 연합 생성
-    print(union)
     if union >= n*n:
         break
     ans += 1   
     graph = new_graph
-    print('========')
+    # print('========')
 
-print('ans >>',ans)
+print(ans)
