@@ -1,7 +1,5 @@
 # 감시 피하기
-from re import L
 import sys
-from xml.sax.handler import feature_namespace_prefixes
 sys.stdin = open("05/8.txt", "r")
 
 n = int(input())
@@ -17,6 +15,14 @@ for i in range(n):
             teacher.append([i,j])
 dx = [0,0,-1,1] #상하좌우
 dy = [1,-1,0,0]
+
+
+def setObstacle(idx,tmp): #dfs permutation
+    if len(tmp) == 3:
+        obstacle.append(tmp[:])
+        return
+    for i in range(idx,len(blank)):
+        setObstacle(i+1,tmp+[blank[i]])
 
 def findStudent(x,y):
     for i in range(4):
@@ -34,13 +40,6 @@ def findStudent(x,y):
                 return False
     return False
 
-def setObstacle(idx,tmp): #dfs permutation
-    if len(tmp) == 3:
-        obstacle.append(tmp[:])
-        return
-    for i in range(idx,len(blank)):
-        setObstacle(i+1,tmp+[blank[i]])
-
 def teacherFind():
     for t in teacher:
         if findStudent(t[0],t[1]):
@@ -48,13 +47,14 @@ def teacherFind():
     return False
 
 setObstacle(0,[])
-ans = False
 
+ans = False
 for obs in obstacle:
     for x,y in obs:
         graph[x][y] = 'O'
     if not teacherFind():
         ans = True
+        break
     for x,y in obs:
         graph[x][y] = 'X'
 
