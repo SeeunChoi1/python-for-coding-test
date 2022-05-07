@@ -16,8 +16,8 @@ for i in range(n):
 dx = [0,0,-1,1] #상하좌우
 dy = [1,-1,0,0]
 
-
-def setObstacle(idx,tmp): #dfs permutation
+def setObstacle(idx,tmp): #dfs combination
+    global obstacle
     if len(tmp) == 3:
         obstacle.append(tmp[:])
         return
@@ -37,7 +37,7 @@ def findStudent(x,y):
                 # print('학생 찾았다', nx,ny)
                 return True
             elif graph[nx][ny] == 'O':
-                return False
+                break
     return False
 
 def teacherFind():
