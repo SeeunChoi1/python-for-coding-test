@@ -36,7 +36,6 @@ def fence(count):
     global ans, result
     # 울타리 3개 완료
     if count == 3: 
-        
         # if graph[1][0] and graph[0][1] and graph[3][5]:
         #     print(">>>>>start>>>>>" , count)
         #     print(*graph, sep='\n')
