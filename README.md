@@ -39,7 +39,7 @@
     * [뱀](04/7.py) (문제출처 : [백준](https://www.acmicpc.net/problem/3190))
     * [기둥과 보 설치](04/8.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60061))
     * [치킨 배달](04/9.py) (문제출처 : [백준](https://www.acmicpc.net/problem/15686))
-    * [외벽 점검](04/10.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60062))
+    * [외벽 점검](04/10_2.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60062))
 
 ## 5장 DFS/BFS
 
