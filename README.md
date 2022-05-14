@@ -2,7 +2,7 @@
 ### 출처 : [이것이 취업을 위한 코딩 테스트다 with 파이썬](http://www.yes24.com/Product/Goods/91433923)
 ### 참고 : [저자 github](https://github.com/ndb796/python-for-coding-test)
 
-각 예제 코드문제를 위한 input은 txt파일로 생성되어있습니다.\
+각 예제 코드문제를 위한 input은 txt파일로 생성되어있습니다.  
 책 목차 순의 문제풀이가 아닌 알고리즘 기준의 문제풀이 순서로 진행하였습니다.
 
 ## 3장 그리디
@@ -72,14 +72,14 @@
     * 정렬 라이브러리 기본 예제
     * 정렬 라이브러리 키(Key) 기준 정렬 예제
 * 실전
-    * 위에서 아래로
-    * 성적이 낮은 순서대로 학생 출력하기
-    * 두 배열의 원소 교체
+    * [위에서 아래로](06/1.py)
+    * [성적이 낮은 순서대로 학생 출력하기](06/2.py)
+    * [두 배열의 원소 교체](06/3.py)
 * 기출문제
-    * [국영수] [(문제출처)](https://www.acmicpc.net/problem/10825) 
-    * [안테나] [(문제출처)](https://www.acmicpc.net/problem/18310) 
-    * [실패율] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/42889) 
-    * [카드 정렬하기] [(문제출처)](https://www.acmicpc.net/problem/1715) 
+    * [국영수](06/4.py) (문제출처 : [백준](https://www.acmicpc.net/problem/10825))
+    * [안테나](06/5.py) (문제출처 : [백준](https://www.acmicpc.net/problem/18310))
+    * [실패율](06/6.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42889)) 
+    * [카드 정렬하기](06/7.py) (문제출처 : [백준](https://www.acmicpc.net/problem/1715))
 
 ## 7장 이진 탐색
 
@@ -90,16 +90,16 @@
     * 반복문을 이용한 이진 탐색
     * 파이썬에서 빠르게 입력 받기
 * 실전
-    * 부품 찾기
+    * [부품 찾기]()
         * 이진 탐색으로 해결
         * 계수 정렬로 해결
         * 집합(Set) 자료형으로 해결
-    * 떡볶이 떡 만들기
+    * [떡볶이 떡 만들기]()
 * 기출문제
-    * 정렬된 배열에서 특정 수의 개수 구하기 (Zoho 인터뷰 기출)
-    * 고정점 찾기 (Amazon 인터뷰 기출)
-    * [공유기 설치] [(문제출처)](https://www.acmicpc.net/problem/2110) (핵심 유형)
-    * [가사 검색] [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60060) (카카오)
+    * [정렬된 배열에서 특정 수의 개수 구하기]() (문제출처 : Zoho 인터뷰 기출)
+    * [고정점 찾기]() (문제출처 : Amazon 인터뷰 기출)
+    * [공유기 설치]() (문제출처 : [백준](https://www.acmicpc.net/problem/2110))
+    * [가사 검색]() (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60060))
 
 ## 8장 다이나믹 프로그래밍
 
@@ -114,11 +114,11 @@
     * 효율적인 화폐 구성
 * 기출문제
     * 금광 (Flipkart 인터뷰 기출)
-    * [정수 삼각형] [(문제출처)](https://www.acmicpc.net/problem/1932)
-    * [퇴사] [(문제출처)](https://www.acmicpc.net/problem/14501)
-    * [병사 배치하기] [(문제출처)](https://www.acmicpc.net/problem/18353) 
-    * 못생긴 수 (Google 인터뷰 기출)
-    * 편집 거리 (Goldman Sachs 인터뷰 기출)
+    * [정수 삼각형]() (문제출처 : [백준](https://www.acmicpc.net/problem/1932))
+    * [퇴사]() (문제출처 : [백준](https://www.acmicpc.net/problem/14501))
+    * [병사 배치하기]() (문제출처 : [백준](https://www.acmicpc.net/problem/18353))
+    * [못생긴 수]() (문제출처 : Google 인터뷰 기출)
+    * [편집 거리]() (문제출처 : Goldman Sachs 인터뷰 기출)
 
 ## 9장 최단 경로
 
@@ -131,7 +131,7 @@
     * 미래 도시
     * 전보
 * 기출문제
-    * [플로이드] [(문제출처)](https://www.acmicpc.net/problem/11404) (핵심 유형)
+    * [플로이드] (문제출처 : [백준](https://www.acmicpc.net/problem/11404))
     * 정확한 순위 (K 대회 기출)
     * 화성 탐사 (ICPC)
     * 숨바꼭질 (USACO)
@@ -149,9 +149,9 @@
     * 팀 결성
     * 도시 분할 계획
     * 커리큘럼
-    * 여행 계획 (핵심 유형)
+    * 여행 계획
 * 기출문제
-    * 탑승구 (CCC)
-    * 어두운 길 (University of Ulm Local Contest)
-    * [행성 터널] [(문제출처)](https://www.acmicpc.net/problem/2887)
-    * [최종 순위] [(문제출처)](https://www.acmicpc.net/problem/3665)
+    * 탑승구 (문제출처 : CCC)
+    * 어두운 길 (문제출처 : University of Ulm Local Contest)
+    * [행성 터널]() (문제출처 : [백준](https://www.acmicpc.net/problem/2887))
+    * [최종 순위]() (문제출처 : [백준](https://www.acmicpc.net/problem/3665))
