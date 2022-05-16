@@ -35,7 +35,7 @@
     * [럭키 스트레이트](04/3.py) (문제출처 : [백준](https://www.acmicpc.net/problem/18406))
     * [문자열 재정렬](04/4.py) (Facebook 인터뷰 기출)
     * [문자열 압축](04/5.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60057))
-    * [자물쇠와 열쇠](04/6.py) [(문제출처)](https://programmers.co.kr/learn/courses/30/lessons/60059)
+    * [자물쇠와 열쇠](04/6.py) (문제출처) : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60059)
     * [뱀](04/7.py) (문제출처 : [백준](https://www.acmicpc.net/problem/3190))
     * [기둥과 보 설치](04/8.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60061))
     * [치킨 배달](04/9.py) (문제출처 : [백준](https://www.acmicpc.net/problem/15686))
