@@ -1,5 +1,6 @@
 # 실패율
 ## 정렬
+## TODO : failure 하나로 다 합치기
 import sys
 
 
@@ -26,7 +27,7 @@ def solution(N,stages):
 
     for i in range(1,N+2):
         failure[i][0] = i
-        if reached[i] == 0:
+        if reached[i] == 0: # dividen by 0
             failure[i][1] = 0
         else:
             failure[i][1] = not_clear[i] / reached[i]
@@ -36,7 +37,7 @@ def solution(N,stages):
     print(failure)
 
     for fail in failure:
-        if fail[0] == N+1 or fail[0] == 0:
+        if fail[0] == N+1 or fail[0] == 0: # padding 삭제
             continue
         answer.append(fail[0])
 
