@@ -96,10 +96,10 @@
         * 집합(Set) 자료형으로 해결
     * [떡볶이 떡 만들기](07/2.py)
 * 기출문제
-    * [정렬된 배열에서 특정 수의 개수 구하기](07/3.py) (문제출처 : Zoho 인터뷰 기출)
+    * [정렬된 배열에서 특정 수의 개수 구하기](07/3-1.py) (문제출처 : Zoho 인터뷰 기출)
     * [고정점 찾기](07/4.py) (문제출처 : Amazon 인터뷰 기출)
     * [공유기 설치](07/5.py) (문제출처 : [백준](https://www.acmicpc.net/problem/2110))
-    * [가사 검색](07/6.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60060))
+    * [가사 검색](07/6-1.py) (문제출처 : [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/60060))
 
 ## 8장 다이나믹 프로그래밍
 
