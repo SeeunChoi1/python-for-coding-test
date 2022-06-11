@@ -1,5 +1,6 @@
 # 전보
 ## 단방향 그래프
+## 한 도시에서 다른 도시까지의 최단 거리 문제
 import heapq
 import sys
 sys.stdin = open("09/2.txt", "r")
