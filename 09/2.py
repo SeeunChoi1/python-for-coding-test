@@ -16,7 +16,7 @@ for _ in range(tunnle_num):
 
 q = []
 heapq.heappush(q,(0,start_city)) # weight,node
-distance[start] = 0
+distance[start_city] = 0
 while q:
     # 가장 최단거리가 짧은 노드
     dist, now = heapq.heappop(q)
