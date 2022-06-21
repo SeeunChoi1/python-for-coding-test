@@ -1,5 +1,4 @@
 # 금광
-from stringprep import in_table_c11_c12
 import sys
 sys.stdin = open("08_DP/5.txt", "r")
 
