@@ -114,11 +114,11 @@
     * [효율적인 화폐 구성](08_DP/4_효율적인화폐구성.py)
 * 기출문제
     * [금광](08_DP/5_금광.py) (Flipkart 인터뷰 기출)
-    * [정수 삼각형](08/6.py) (문제출처 : [백준](https://www.acmicpc.net/problem/1932))
-    * [퇴사](08/7.py) (문제출처 : [백준](https://www.acmicpc.net/problem/14501))
-    * [병사 배치하기](08/8.py) (문제출처 : [백준](https://www.acmicpc.net/problem/18353))
-    * [못생긴 수](08/9.py) (문제출처 : Google 인터뷰 기출)
-    * [편집 거리](08/10.py) (문제출처 : Goldman Sachs 인터뷰 기출)
+    * [정수 삼각형](08_DP/6_정수삼각형.py) (문제출처 : [백준](https://www.acmicpc.net/problem/1932))
+    * [퇴사](08_DP/7_퇴사.py) (문제출처 : [백준](https://www.acmicpc.net/problem/14501))
+    * [병사 배치하기](08_DP/8_병사배치하기.py) (문제출처 : [백준](https://www.acmicpc.net/problem/18353))
+    * [못생긴 수](08_DP/9_못생긴수.py) (문제출처 : Google 인터뷰 기출)
+    * [편집 거리](08_DP/10_편집거리.py) (문제출처 : Goldman Sachs 인터뷰 기출)
 
 ## 9장 최단 경로
 
