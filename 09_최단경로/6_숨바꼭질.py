@@ -1,5 +1,4 @@
 # 숨바꼭질
-from dis import dis
 import heapq
 import sys
 sys.stdin = open("09_최단경로/6.txt", "r")
